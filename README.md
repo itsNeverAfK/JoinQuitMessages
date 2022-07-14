@@ -1,4 +1,4 @@
-# CustomGUIMaker
+# JoinLeaveMessages
 
 * Change the join and quit messages with JoinLeaveMessages!
 * This plugin is for **Bukkit / Spigot / Paper** servers and for the **minecraft version 1.8 - 1.19**.
