@@ -1,0 +1,6 @@
+join:
+  message: '{ColorCode}8[{ColorCode}a+{ColorCode}8] {ColorCode}7{player} {ColorCode}8[{ColorCode}a{online}{ColorCode}8/{ColorCode}a{max_online}{ColorCode}8]'
+  sending: 'true'
+quit:
+  message: '{ColorCode}8[{ColorCode}c-{ColorCode}8] {ColorCode}7{player} {ColorCode}8[{ColorCode}c{online}{ColorCode}8/{ColorCode}c{max_online}{ColorCode}8]'
+  sending: 'true'

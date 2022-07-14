@@ -1,0 +1,6 @@
+name: JoinLeaveMessages
+version: '${project.version}'
+main: neverafk.joinleavemessages.JoinLeaveMessages
+api-version: 1.13
+authors: [ NeverAfK ]
+description: Edit the join & leave messages for your minecraft server.
