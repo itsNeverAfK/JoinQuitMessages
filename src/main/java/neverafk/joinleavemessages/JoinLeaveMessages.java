@@ -46,7 +46,7 @@ public final class JoinLeaveMessages extends JavaPlugin implements Listener {
     @EventHandler
     public void onQuit(PlayerQuitEvent event) {
         if(sendQuitMessage) {
-            event.setQuitMessage(quitMessage.replace("{ColorCode}", "§").replace("{player}", event.getPlayer().getName()).replace("{online}", String.valueOf(Bukkit.getOnlinePlayers().size())).replace("{max_online}", String.valueOf(Bukkit.getMaxPlayers())));
+            event.setQuitMessage(quitMessage.replace("{ColorCode}", "§").replace("{player}", event.getPlayer().getName()).replace("{online}", String.valueOf(Bukkit.getOnlinePlayers().size() - 1)).replace("{max_online}", String.valueOf(Bukkit.getMaxPlayers())));
         } else {
             event.setQuitMessage(null);
         }
